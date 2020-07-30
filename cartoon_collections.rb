@@ -36,6 +36,7 @@ i = 0
 end	    elem = valid_calls[i]
     found = planeteer_calls.find do |x|
      x == elem 
+   end
     if elem == found
       return found
     end 
